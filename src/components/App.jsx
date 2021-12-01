@@ -45,9 +45,8 @@ export default class App extends React.Component {
   }
 
   handleTitleClick(video) {
-    this.setState({ currentVideo: video })
+    this.setState({ currentVideo: video });
   }
-
 
   render() {
 
