@@ -10,7 +10,7 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       videos: [],
-      currentVideo: exData[0],
+      currentVideo: {},
       searchQuery: ''
     }
     // BINDERS
